@@ -141,3 +141,49 @@ header {
   font-size: 24px;
   font-weight: 600;
 }
+
+/* Advertiser Section Style */
+
+.advertise-section {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 400px;
+}
+
+.advertise-info {
+  max-width: 600px;
+  text-align: center;
+}
+
+.advertise-info > h3 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.advertise-info span {
+  color: #e55473;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.advertise-info p {
+  color: rgba(39, 39, 39, 0.6);
+
+  font-size: 18px;
+  font-weight: 400;
+  padding: 25px 0;
+}
+
+.advertise-info button {
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 43px;
+}

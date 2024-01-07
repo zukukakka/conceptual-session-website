@@ -10,6 +10,22 @@ main section {
   padding: 100px 230px;
 }
 
+.section-header {
+  text-align: center;
+  width: 100%;
+}
+.section-header h3 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 900;
+}
+.section-header p {
+  width: 600px;
+  color: rgba(39, 39, 39, 0.6);
+  margin: 0 auto;
+  padding: 25px 0 45px;
+}
+
 /* Header Section Style */
 header {
   background: rgba(229, 84, 115, 0.1);
@@ -61,23 +77,6 @@ header {
 }
 
 /* Flower Section Style */
-
-.flower-header {
-  text-align: center;
-  width: 100%;
-}
-.flower-header h3 {
-  color: #272727;
-
-  font-size: 40px;
-  font-weight: 900;
-}
-.flower-header p {
-  width: 600px;
-  color: rgba(39, 39, 39, 0.6);
-  margin: 0 auto;
-  padding: 25px 0 45px;
-}
 
 .flower-items {
   display: flex;
@@ -186,4 +185,12 @@ header {
   border-radius: 8px;
   background: #e55473;
   padding: 20px 43px;
+}
+
+/* Project section style */
+.project-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 25px;
 }

@@ -194,3 +194,80 @@ header {
   align-items: center;
   gap: 25px;
 }
+
+/* Subscriber-info Section Style */
+.subscribe-section {
+  text-align: center;
+}
+.subscribe-info {
+  max-height: 445px;
+  background-image: url('../images/Rectangle\ 9.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 120px 400px;
+}
+
+.subscribe-info h3 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.subscribe-info p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  margin: 16px 0;
+}
+
+.subscribe-info input {
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  width: 50%;
+  padding: 25px;
+  margin-right: 15px;
+  color: rgba(39, 39, 39, 0.6);
+}
+
+.subscribe-info button {
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 30px;
+}
+
+/*Start Footer Section Style */
+footer {
+  background: #111010;
+  text-align: center;
+  color: #fff;
+  padding: 125px 400px;
+}
+
+.footer-header {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.footer-header span {
+  color: #e55473;
+  font-weight: 800;
+}
+
+.footer-description {
+  width: 600px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  margin: 0 auto;
+  padding: 25px 0 45px;
+}
+
+.footer-copyright {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* End Footer section Style */

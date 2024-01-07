@@ -59,3 +59,63 @@ header {
   width: 630px;
   height: 100vh;
 }
+
+/* Flower Section Style */
+
+.flower-header {
+  text-align: center;
+  width: 100%;
+}
+.flower-header h3 {
+  color: #272727;
+
+  font-size: 40px;
+  font-weight: 900;
+}
+.flower-header p {
+  width: 600px;
+  color: rgba(39, 39, 39, 0.6);
+  margin: 0 auto;
+  padding: 25px 0 45px;
+}
+
+.flower-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 25px;
+}
+
+.flower-item {
+  height: 500px;
+  width: 450px;
+  border-radius: 300px 300px 0px 0px;
+  text-align: center;
+  padding: 110px 75px 0;
+}
+
+.item1 {
+  background: rgba(167, 33, 98, 0.15);
+}
+.item2 {
+  background: rgba(5, 151, 160, 0.15);
+}
+.item3 {
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.flower-item span {
+  text-align: center;
+  display: block;
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 35px;
+  text-decoration-line: underline;
+}
+
+.flower-item img {
+  width: 310px;
+  height: 425px;
+  margin-top: 75px;
+}

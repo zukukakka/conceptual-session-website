@@ -1,0 +1,61 @@
+/* Global Style is here */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+}
+
+main section {
+  padding: 100px 230px;
+}
+
+/* Header Section Style */
+header {
+  background: rgba(229, 84, 115, 0.1);
+  min-height: 100vh;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  margin: 0 240px;
+}
+
+.hero-info {
+  width: 700px;
+  max-height: 100vh;
+  margin: auto 0;
+}
+
+.hero-title {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 900;
+}
+
+.hero-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  padding: 30px 0;
+}
+
+.hero-btn {
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 40px;
+}
+.hero-img {
+  margin-bottom: 0;
+}
+.hero-img > img {
+  margin-bottom: 0;
+  width: 630px;
+  height: 100vh;
+}

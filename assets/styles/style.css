@@ -119,3 +119,25 @@ header {
   height: 425px;
   margin-top: 75px;
 }
+
+/* Delivery Section Style */
+
+.delivery-infos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 85px 170px;
+}
+
+.delivery-info {
+  text-align: center;
+}
+
+.delivery-info p {
+  margin: 25px 0;
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+}
